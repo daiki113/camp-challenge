@@ -1,0 +1,132 @@
+body {
+     webkit-text-size-adjust: 100%; /*webkit=サファリ　クローム*/
+     font-family: "ヒラギノ角ゴ",Roboto,Arai,"Helvetica Neue",Helvetica,sans-serif;
+     font-size: 14px;
+     line-height: 2;
+}
+/* class=. id=# */
+.container {
+    width:1200px;
+     margin: 0 auto;
+}
+
+.header{
+    position: relative;
+    height: 80px;/*高さ指定*/
+    border: 9px double #000;/*サイズ　種類　色*/
+    background: #e527cc;/*色*/
+    margin: 0 auto;/*外の余白*/
+}
+h1.header-title{
+    text-align: center;
+    padding: 10px 0 0;/*時計回り*/
+}
+
+.header-btn{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px;
+    font-size: 12px;
+    display: inline-block;
+    border: 0;
+    border-radius: 0 4px 4px 0;
+    background: #eceff1;
+    text-decoration: none;
+}
+.header-btn:before{
+    position: abolute:absolute;
+    top: 0;
+    left: -15spx;
+    border: 11px solid transparent;
+    border-left-width: 8px;
+    border-right-width: 8px;
+    border-right-color: #eceff1;
+}
+
+.nav{
+    height: 60px;
+    width:900px;
+    overfolw: hidden;
+    background-color: ;
+    margin: 0 auto;
+}
+
+.nav ol{
+    width:900px;
+}
+
+.nav li{
+    list-style: none;
+    float: left;
+    width: 120px;
+}
+
+.nav a {
+    color: #990000;
+    text-decoration: none;
+    display: block;
+    border:1px solid #ccc;
+    padding:7px auto;
+    text-align: center;
+}
+
+.nav a:link{
+    color:green;
+}
+
+.nav a:visited{
+    color:yellow;
+}
+
+.nav a:hover{
+    color:black;
+}
+
+.nav a:active{
+    color:red;
+}
+
+.contents{
+    margin: 0px 40px 0;
+    float: left;
+    width: 700px;
+    background-color: ;
+}
+
+div.sub{
+    float: right;
+    width: 300px;
+    overflow: hidden;
+    background-color: ;
+}
+
+footer {
+    width: 1200px;
+    overflow: hidden;
+    background-color: red;
+}
+
+address{
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+tr td{
+    font-size: 14px;
+    text-align: left;
+    border: 1px solid #ddd;
+    padding:5px;
+    width: 85%;
+}
+
+tr th {
+    font-size: 14px;
+    text-align: left;
+    border: 1px solid #ddd;
+    padding:5px;
+    width: 15%;
+}
