@@ -1,0 +1,3 @@
+<?php
+$stamp = mktime(10,0,0,11,4,2016);
+echo date('Y年m月d日H時i分s秒',$stamp);
