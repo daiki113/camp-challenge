@@ -27,7 +27,7 @@ if (($total >= 3000) && ($total < 5000))
 {  
 echo $total * 0.04;
 } 
-elseif ($total >= 5000 ) s
+elseif ($total >= 5000 ) 
 {
 echo $total * 0.05;
 }
